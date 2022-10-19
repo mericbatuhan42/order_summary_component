@@ -1,0 +1,131 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #D6E1FF;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+#flex-container {
+  transition: ease all .5s;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px 20px 20px 20px;
+}
+
+#flex-container img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+#flex-text-container {
+  padding: 2rem;
+}
+
+#flex-text-container h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+#info-text {
+  line-height: 2rem;
+  color: #8488A3;
+  text-align: center;
+  font-weight: 700;
+}
+
+#flex-price-container {
+  border-radius: 15px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #F8F9FE;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#change {
+  color: #382AE1;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+#plan-price {
+  line-height: 0.25rem;
+  font-weight: 900;
+}
+
+#plan-price :nth-child(2){
+  color: #8488A3;
+  font-weight: 500;
+}
+
+button {
+  background-color: #382AE1;
+  border-color: #382AE1;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#button-container {
+  border-radius: 15px;
+  box-shadow: #392ae11c 0px 2px 1px, #392ae11c 0px 4px 2px, #392ae11c 0px 8px 4px, #392ae11c 0px 16px 8px, #392ae11c 0px 32px 16px;
+}
+
+#cancel {
+  color: #8488A3;
+  text-align: center;
+  font-weight: 700;
+}
+
+#flex-price-container #change:hover {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #766CF1;
+  border-color: #766CF1;
+}
+
+#cancel:hover {
+  color: #2E3849;
+}
+
+@media (min-width: 600px) {
+  #flex-container {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #flex-container {
+    width: 37.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #flex-container {
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
