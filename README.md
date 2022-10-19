@@ -21,7 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-component-using-flexbox-7DX-_OW-3U)
+- Live Site URL: [Add live site URL here](https://mericbatuhan42.github.io/order_summary_component/)
 
 ## My process
 
